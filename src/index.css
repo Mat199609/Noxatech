@@ -1,0 +1,19 @@
+/* Minimal global reset - app styles live in App.css */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility anchors/buttons default - components override */
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; }
