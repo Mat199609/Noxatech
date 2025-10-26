@@ -707,7 +707,7 @@ body {
   position: fixed;
   bottom: 32px;
   right: 32px;
-  z-index: 1000;
+  z-index: 999;
   box-shadow: 0 2px 8px rgba(44,83,100,0.18);
   border-radius: 50%;
   background: #25D366;

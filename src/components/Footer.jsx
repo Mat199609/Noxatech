@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
 import './Footer.css';
 
@@ -6,10 +7,10 @@ const Footer = () => (
   <footer className="nexatech-footer">
     <div className="footer-content">
       <div className="footer-links">
-        <a href="/servicios">Servicios</a>
-        <a href="/casos">Casos de Éxito</a>
-        <a href="/equipo">Equipo</a>
-        <a href="/contacto">Contacto</a>
+        <Link to="/servicios">Servicios</Link>
+        <Link to="/casos">Casos de Éxito</Link>
+        <Link to="/equipo">Equipo</Link>
+        <Link to="/contacto">Contacto</Link>
       </div>
       <div className="footer-social" aria-label="Redes sociales">
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
