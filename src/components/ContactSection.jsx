@@ -8,9 +8,9 @@ const ContactSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = 'service_ol36q86';
+    const serviceID = import.meta.env.EMAILJS_SERVICEID;
     const templateID = 'template_rmcsv8l';
-    const publicKey = 'l1WiowePZ9dD5HWcN';
+    const publicKey = import.meta.env.EMAILJS_PUBLICKEY;
 
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {
